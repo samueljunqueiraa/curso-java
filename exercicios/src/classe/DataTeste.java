@@ -5,6 +5,7 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 		Data d1 = new Data();
+		d1.ano = 2021;
 		
 		System.out.printf("%d/%d/%d", d1.dia, d1.mes, d1.ano);
 		
@@ -12,5 +13,8 @@ public class DataTeste {
 		
 		System.out.printf(d1.obterDataFormatada());
 		System.out.printf(d2.obterDataFormatada());
+		
+		d1.imprimirDataFormatada();
+		d2.imprimirDataFormatada();
 	}  
 }
