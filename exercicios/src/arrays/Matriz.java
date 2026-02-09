@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
-	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
+	public static void main(String[] args) {		Scanner entrada = new Scanner(System.in);
 		
 		// Usuário vai digitar a quantidade de alunos e o Scanner qtdeAlunos vai absorver essa entrada
 		System.out.print("Quantos alunos? ");
