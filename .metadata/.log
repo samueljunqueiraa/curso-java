@@ -1965,3 +1965,1804 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2026-02-20 07:05:29.716 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-20 07:05:37.537
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-20 07:05:52.933
+!MESSAGE Logback config file: C:\Users\mozer\Desktop\curso-java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-02-20 07:05:53.672
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-20 07:05:53.673
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-02-20 07:05:54.142
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-20 07:05:54.142
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:06:02.382
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:06:02.388
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:06:02.429
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-20 07:06:02.733
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mozer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-20 07:06:06.242
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.401.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-20 07:06:06.351
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-20 07:06:06.595
+!MESSAGE [Info]	[certificates] Removed 6 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-20 07:06:06.970
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-20 07:06:06.971
+!MESSAGE [Info]	[auth] Invalid copilot token: missing token: 403 
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-02-20 07:06:24.119
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because "jreContainer" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because "jreContainer" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:105)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:12:04.658
+!MESSAGE [Info] Document is null for editor: Hash.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:12:04.659
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/colecoes/Hash.java
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-02-20 07:12:33.195
+!MESSAGE Error occurred while deleting: /erp-backend/bin/.metadata
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:312)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:218)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/erp-backend/bin/.metadata'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:832)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1917)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:312)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:218)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2026-02-20 07:12:33.197
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2026-02-20 07:12:33.197
+!MESSAGE Could not delete '/erp-backend/bin/.metadata'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:832)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1917)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:312)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:218)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData.
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 6 unknown 0 0 2026-02-20 07:12:33.199
+!MESSAGE OK
+!SUBENTRY 6 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 7 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 8 unknown 0 0 2026-02-20 07:12:33.199
+!MESSAGE OK
+!SUBENTRY 8 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillAiModelCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\AutofillStrikeDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 unknown 0 0 2026-02-20 07:12:33.199
+!MESSAGE OK
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\BudgetDatabase
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\ClientCertificates
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.199
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Code Cache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\commerce_subscription_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnGraphiteCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\DawnWebGPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discounts_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\discount_infos_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2076)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:423)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:345)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Feature Engagement Tracker
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\GPUCache
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\optimization_guide_hint_cache_store
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\parcel_tracking_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\PersistentOriginTrials
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.200
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Safe Browsing Network
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 unknown 0 0 2026-02-20 07:12:33.201
+!MESSAGE OK
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Shared Dictionary
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 8 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 9 org.eclipse.core.filesystem 4 273 2026-02-20 07:12:33.201
+!MESSAGE Could not delete: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\mozer\OneDrive\Área de Trabalho\erp-industrial\erp-backend\bin\.metadata\.plugins\org.eclipse.swt\EBWebView\SmartScreen\RemoteData
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-02-20 07:12:33.212
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: erp-backend
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/erp-backend/bin/.project)[272]: java.lang.Exception: Resource already exists on disk: '/erp-backend/bin/.project'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:395)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:591)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:520)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:298)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:124)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:138)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:133)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:266)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:188)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:312)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:218)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2026-02-20 07:12:33.217
+!MESSAGE Resource already exists on disk: '/erp-backend/bin/.project'.
+!STACK 0
+java.lang.Exception: Resource already exists on disk: '/erp-backend/bin/.project'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:395)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:591)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:520)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:298)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:124)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:138)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:133)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:92)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:266)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:188)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:312)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:218)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-20 07:30:21.415
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:31.828
+!MESSAGE [Info] Document is null for editor: CarroTeste.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:31.829
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/CarroTeste.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:32.722
+!MESSAGE [Info] Document is null for editor: Carro.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:32.723
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/Carro.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:33.674
+!MESSAGE [Info] Document is null for editor: Motor.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 07:37:33.674
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/Motor.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-20 07:49:11.015
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-20 07:52:14.510
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-20 07:53:47.622
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.588
+!MESSAGE [Info] Document is null for editor: Item.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.598
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/Item.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.876
+!MESSAGE [Info] Document is null for editor: CompraTeste.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.877
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/CompraTeste.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.932
+!MESSAGE [Info] Document is null for editor: Compra.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-20 09:15:42.932
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/mozer/Desktop/curso-java/exercicios/src/oo/composicao/Compra.java
