@@ -10,5 +10,7 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="oo.composicao.Motor"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Compra"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
 </qualifiedTypeNameHistroy>

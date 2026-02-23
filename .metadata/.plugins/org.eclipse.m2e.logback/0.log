@@ -143,3 +143,4 @@ Caused by: java.io.FileNotFoundException: C:\Users\mozer\OneDrive\Área de Traba
 	... 27 common frames omitted
 2026-02-19 15:15:37,780 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2026-02-20 07:06:02,321 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-02-23 07:08:43,060 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
